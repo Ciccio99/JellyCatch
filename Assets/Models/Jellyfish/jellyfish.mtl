@@ -1,0 +1,13 @@
+# 
+# Wavefront material file
+# Created with Kaydara FBX
+# 
+
+newmtl Jellyfish__Jellyfish_png
+map_Kd Jellyfish.png
+Ka 1.000000 1.000000 1.000000
+Kd 0.730500 0.223200 0.417900
+Ks 1.000000 1.000000 1.000000
+illum 2
+Ns 4.800000
+Tr 1.000000
