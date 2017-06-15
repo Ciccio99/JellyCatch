@@ -80,7 +80,8 @@ public class jellySpawnScript : MonoBehaviour {
         Vector3 spawnPos;
         Vector3 randDir = new Vector3(Random.Range(-1f, 1f), Random.Range(0f, 1f), Random.Range(-1f, 1f));
         RaycastHit[] hits;
-
+        mainCamTransform = Camera.main.transform;
+        
         hits = Physics.RaycastAll(mainCamTransform.position, randDir, maxPos);
 
         for (int i = 0; i < hits.Length; i++) {
@@ -105,6 +106,7 @@ public class jellySpawnScript : MonoBehaviour {
         Vector3 spawnPos;
         Vector3 randDir = new Vector3(Random.Range(-1f, 1f), Random.Range(0f, 1f), Random.Range(-1f, 1f));
         RaycastHit[] hits;
+        mainCamTransform = Camera.main.transform;
 
         hits = Physics.RaycastAll(mainCamTransform.position, randDir, maxPos);
 

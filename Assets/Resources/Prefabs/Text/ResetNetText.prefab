@@ -195,7 +195,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 1
   distance: 5
-  horizontal: 1
+  horizontal: 0.9
   vertical: -0.4
 --- !u!222 &222181502798710198
 CanvasRenderer:
@@ -210,7 +210,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1087457714087006}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 4.64}
+  m_LocalPosition: {x: 0, y: 0, z: 2.1669369}
   m_LocalScale: {x: 0.03166297, y: 0.03166296, z: 0.03166296}
   m_Children: []
   m_Father: {fileID: 0}
@@ -218,6 +218,6 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.036, y: -0.43}
+  m_AnchoredPosition: {x: 0.24973223, y: 0.019061334}
   m_SizeDelta: {x: 28.63, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}

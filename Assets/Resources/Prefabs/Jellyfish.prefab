@@ -166,4 +166,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveForce: 100
   rotationAngle: 90
-  boundsDistance: 4
+  boundsDistance: 3.2

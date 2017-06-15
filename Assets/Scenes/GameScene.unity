@@ -180,7 +180,7 @@ MonoBehaviour:
   maxNumOfJelly: 30
   numOfJellyToSpawn: 20
   timeBetweenJellySpawns: 3
-  maxPos: 3
+  maxPos: 2
 --- !u!4 &575083180
 Transform:
   m_ObjectHideFlags: 0

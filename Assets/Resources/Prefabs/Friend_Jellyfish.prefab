@@ -164,6 +164,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f84ad8d13f6da8408012d4979b02e2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveForce: 250
+  moveForce: 200
   rotationAngle: 90
-  boundsDistance: 4
+  boundsDistance: 3.2
