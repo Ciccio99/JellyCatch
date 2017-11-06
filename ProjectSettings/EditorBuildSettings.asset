@@ -11,12 +11,15 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/HololensScene1.unity
     guid: 455c172f37bca564690dd846190574a8
-  - enabled: 0
-    path: Assets/Scenes/StartScene.unity
-    guid: 87f66cabaa0dfd046899b67604051389
-  - enabled: 0
-    path: Assets/Scenes/GameScene1.unity
-    guid: d039ebbca48af344bb8dd614878093ce
   - enabled: 1
     path: Assets/Scenes/HololensScene2.unity
     guid: 399755908b5c3404dbbbf3caf1d69cb4
+  - enabled: 1
+    path: Assets/Scenes/StartScene.unity
+    guid: 87f66cabaa0dfd046899b67604051389
+  - enabled: 1
+    path: Assets/Scenes/GameScene1.unity
+    guid: d039ebbca48af344bb8dd614878093ce
+  - enabled: 0
+    path: Assets/Scenes/GameScene2.unity
+    guid: b1d3451298b910a418b6022a8b5d9382

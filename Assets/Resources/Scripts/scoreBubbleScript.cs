@@ -7,6 +7,8 @@ public class scoreBubbleScript : MonoBehaviour {
     public float upSpeed = 0.5f;
     public float amplitude = 1.0f;
     public float destroyTimer = 10.0f;
+    public float m_ForwardStartDistance;
+    public float m_StartHeight;
 
     private Rigidbody rb;
     private GameObject player;
@@ -17,7 +19,7 @@ public class scoreBubbleScript : MonoBehaviour {
     void Start() {
         player = GameObject.FindGameObjectWithTag("MainCamera");
 
-        startPos = player.transform.position + player.transform.forward * 6f + player.transform.up * -2;
+        startPos = player.transform.position + player.transform.forward * m_ForwardStartDistance + player.transform.up * m_StartHeight;
         transform.position = startPos;
 
         Invoke("DestroyThis", destroyTimer);

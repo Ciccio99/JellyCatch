@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 222181502798710198}
   - component: {fileID: 114694796165062320}
   - component: {fileID: 114897124519903958}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: ResetNetText
   m_TagString: Untagged
   m_Icon: {fileID: 0}

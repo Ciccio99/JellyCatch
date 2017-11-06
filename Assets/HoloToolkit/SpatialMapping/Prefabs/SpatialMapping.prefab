@@ -58,7 +58,7 @@ MonoBehaviour:
   m_VolumeType: 1
   m_SphereRadius: 2
   m_HalfBoxExtents: {x: 4, y: 4, z: 4}
-  m_LodType: 0
+  m_LodType: 1
   m_NumUpdatesBeforeRemoval: 10
   m_SecondsBetweenUpdates: 2
   m_Layer: 0
@@ -80,7 +80,7 @@ MonoBehaviour:
   m_VolumeType: 1
   m_SphereRadius: 2
   m_HalfBoxExtents: {x: 4, y: 4, z: 4}
-  m_LodType: 0
+  m_LodType: 1
   m_NumUpdatesBeforeRemoval: 10
   m_SecondsBetweenUpdates: 2
   m_CurrentRenderState: 2
@@ -99,7 +99,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SpatialMappingRenderer: {fileID: 114734511753666760}
   m_SpatialMappingCollider: {fileID: 114371496112702648}
+  m_ScanningTextGO: {fileID: 0}
   m_SpatialMappingVisualizer: {fileID: 0}
   m_LowestPointOnSpatialMap: {x: 0, y: 0, z: 0}
   m_SandMaterial: {fileID: 2100000, guid: eb49f72d6dded584586f6f7cf0baa0cf, type: 2}
-  m_ScanningMaterial: {fileID: 15303, guid: 0000000000000000f000000000000000, type: 0}
+  m_ScanningMaterial: {fileID: 2100000, guid: 86f3cb72259f3584aa65a263146c21c8, type: 2}

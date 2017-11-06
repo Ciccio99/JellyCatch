@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 64848008007777188}
   - component: {fileID: 23704349520305708}
   - component: {fileID: 114609003785768498}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: NegativeScoreBubble
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42,7 +42,7 @@ GameObject:
   - component: {fileID: 23255627977190726}
   - component: {fileID: 222660480758958982}
   - component: {fileID: 114518880391611016}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Score Bubble Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -278,9 +278,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 421a111873ad8f54c81f26e2b157f999, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  upSpeed: 0.02
-  amplitude: 0.4
+  upSpeed: 0.018
+  amplitude: 0.2
   destroyTimer: 7
+  m_ForwardStartDistance: 5
+  m_StartHeight: -1
 --- !u!222 &222660480758958982
 CanvasRenderer:
   m_ObjectHideFlags: 1
